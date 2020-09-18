@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="imagens/logo_html.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes 
+        ou simpesmente aumente e diminua o 
+        tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width:700px )" srcset="imagens/foto-p.png">
+        <source media="(max-width:1000px )" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="Imagem G flexível">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <a href="midia/critter_cruise.mp3" target="_blank"> clique aqui para baixar</a>
+    <audio controls>
+        <source src="midia/critter_cruise.mp3" type="audio/mp3">
+            <p>Infelizmente seu navegador não consegue
+                reproduzir o arquivo mp3.                
+            </p>
+    </audio>
+</head>
+<body>
+    
+</body>
+</html>
